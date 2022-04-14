@@ -1,0 +1,37 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.border-div{
+    background-color: dodgerblue;
+
+    width: 500px;
+    height: 300px;
+    margin: 50px;
+    color: deeppink;
+    /* border-style: solid;
+    border-color: gold;
+    border-width: 10px; */
+
+    border: 10px solid gold;
+    /* border-radius: 50px;
+    border-top-left-radius: 100px; */
+    border-radius: 10px 50px 100px 150px;
+
+}
+
+.background-div{
+    width: 500px;
+    height: 300px;
+    margin: 50px;
+    /* background-color: fuchsia; */
+    /* background-image: url("./assets/pattern.png"); */
+    /* background-repeat: no-repeat; */
+
+    background-image: url("./assets/panda.webp");
+    background-size: cover;
+    background-position: center center;
+}

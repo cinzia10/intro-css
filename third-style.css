@@ -1,0 +1,75 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.div1 {
+    background-color: crimson;
+    width: 500px;
+
+}
+
+.div2 {
+    background-color: cornflowerblue;
+    display: inline-block;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.div3 {
+    background-color: coral;
+    display: inline;
+    box-sizing: border-box;
+}
+
+.div4 {
+    background-color: darkblue;
+    height: 300px;
+}
+
+.div5 {
+    background-color: brown;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    height: 300px;
+}
+
+.div6 {
+    background-color: yellowgreen;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 300px;
+}
+
+.div7 {
+    background-color: violet;
+    height: 300px;
+}
+
+.div8 {
+    background-color: tomato;
+    height: 100px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.div9 {
+    background-color: yellow;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.div10 {
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
